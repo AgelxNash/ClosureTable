@@ -15,9 +15,9 @@
  */
 if (!defined('MODX_BASE_PATH')) { die('HACK???'); }
 
-$table = $modx->getFullTableName('site_content_tree');
-
-if( ! $modx->db->getRecordCount($modx->db->query("SHOW TABLES LIKE '$table'"))){
+$tableName = 'site_content_tree';
+$table = $modx->getFullTableName($tableName);
+if( ! $modx->db->getRecordCount($modx->db->query("SHOW TABLES LIKE '".$modx->db->config['table_prefix'].$tableName."'"))){
 	$sql = <<< OUT
 CREATE TABLE $table (
   `ancestor` int(10) unsigned NOT NULL,
