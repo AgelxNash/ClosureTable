@@ -14,4 +14,4 @@
  * @internal    @events onAfterMoveDocument,OnDocDuplicate,OnEmptyTrash,OnDocFormSave
  */
 
-include MODX_BASE_PATH."assets/modules/redirectMap2/plugin.RedirectMap.php";
+include MODX_BASE_PATH."assets/plugins/ClosureTable/plugin.ClosureTable.php";
