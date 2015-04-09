@@ -4,7 +4,7 @@
  *
  * Getting the parent of any nesting level with just one SQL query
  *
- * @version 	1.0.0
+ * @version 	1.1.0
  * @license     http://www.gnu.org/copyleft/gpl.html GNU Public License (GPL)
  * @category 	snippet
  * @author  	Agel Nash <modx@agel-nash.ru>
